@@ -1,12 +1,5 @@
 # Bangazon Orientation - Defining Your Departments
 
-## Setup
-
-```bash
-mkdir -p workspace/python/orientation/bangazon && cd $_
-touch bangazon.py
-```
-
 ## Instructions
 
 1. Create a *Department* class. Create some simple properties and methods on Department. You are going to create some derived classes that inherit from Department, so make sure that the properties/methods you add are general to **all** Departments (e.g. name, supervisor, employee_count, etc).
@@ -42,7 +35,6 @@ touch bangazon.py
 1. Override that method in each of the derived classes.
 1. Make sure you invoke the parent class' overridden method with the *super* keyword (e.g. `super().get_budget()`). That will set the base budget.
 1. Now add, or subtract, from that base budget inside the derived class' override method to adjust that specific department's budget.
-
 
 
 # Bangazon Orientation - Method Overloading
